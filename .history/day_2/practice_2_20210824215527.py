@@ -14,7 +14,7 @@ usr_num = input("Enter any number between 1-9: ")
 
 print(usr_num)
 
-usr_num = int(usr_num)
+# usr_num = int(usr_num)
 
 print(usr_num)
 

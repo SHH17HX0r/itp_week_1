@@ -51,25 +51,25 @@ print(type(exampleInt))
 # Casting is specifying a type on to a variable.
 
 # Under a mircoscope
-# Since Python is an object-orientated language, it uses classes to define data types, including its primitive types.
-# Casting in python is therefore done using constructor functions
+    # Since Python is an object-orientated language, it uses classes to define data types, including its primitive types.
+    # Casting in python is therefore done using constructor functions
 
 # 5 available casting function
 # each which takes in specific arguments
 # We will only cover 3.
 
 # 1. int() - constructs an integer number from:
-# - integer literal
-# - float literal (by removing all decimals),
-# - string literal (providing the string represents a whole number)
+    # - integer literal
+    # - float literal (by removing all decimals),
+    # - string literal (providing the string represents a whole number)
 # 2. float() - constructs a float number from:
-# - integer literal
-# - float literal
-# - string literal (providing the string represents a float or an integer)
+    # - integer literal
+    # - float literal
+    # - string literal (providing the string represents a float or an integer)
 # str() - constructs a string from a wide variety of data types, including:
-# - strings
-# - integer literals
-# - float literals
+    # - strings
+    # - integer literals
+    # - float literals
 
 # The other two are boolean and complex casting.
 
@@ -89,9 +89,9 @@ print(type(exampleInt))
 # we can assign variables to the evaluation of arithmetic operators
 
 sum = 4 + 4
-sub = 1 - 100  # it can evaluate to negatives too!
-div = 10/5  # even if it divides evenly, it returns a float.
-floor = 10//3  # to only get whole numbers, we use floor division.
+sub = 1 - 100 # it can evaluate to negatives too!
+div = 10/5 # even if it divides evenly, it returns a float.
+floor = 10/3 # to only get whole numbers, we use floor division.
 
 # ASSIGNMENT OPERATORS
 
@@ -111,16 +111,16 @@ floor = 10//3  # to only get whole numbers, we use floor division.
 
 x = 3
 x += 6
-print(x)  # 9
+print(x) # 9
 
 y += 3
 # NameError: name 'y' is not defined
 
 y = "3"
-y += str(3)
+y += 3
 # TypeError: can only concatenate str (not "int") to str
 
-# ** BOOLEANS
+# BOOLEANS
 
 # In programming you often need to know if an expression is True or False.
 # You can evaluate any expression in Python, and get one of two answers, True or False.
@@ -134,10 +134,10 @@ print(10 < 9)
 # which allows you to evaluate any value,
 # and give you True or False in return
 
-print(bool("Hello"))  # True
-print(bool(15))  # True
-print(bool(""))  # False
-print(bool(0.0))  # False
+print(bool("Hello")) # True
+print(bool(15)) # True
+print(bool("")) # False
+print(bool(0.0)) # False
 
 # According to the Python Documentation:
 # By default, an object is considered true.
@@ -157,17 +157,17 @@ print(bool(0.0))  # False
 a = 4
 b = 5
 c = 5
-a == b  # False
-b == c  # True
-a != b  # True
-b != c  # False
-a > b  # False
-b > c  # False
-a < b  # True
-b < c  # False
-a >= b  # False
-b >= c  # True
-a <= b  # True
+a == b # False
+b == c # True
+a != b # True
+b != c #False
+a > b # False
+b > c # False
+a < b # True
+b < c # False
+a >= b # False
+b >= c # True
+a <= b # True
 
 # LOGICAL OPERATORS
 
@@ -181,11 +181,10 @@ college_graduate_age = 21
 able_to_rent_a_car = 25
 able_to_purchase_alcohol = 21
 
-chesty_puller_age >= able_to_purchase_alcohol and chesty_puller_age >= able_to_purchase_alcohol  # True
-college_graduate_age >= able_to_purchase_alcohol and college_graduate_age >= able_to_rent_a_car  # False
-college_graduate_age >= able_to_purchase_alcohol or college_graduate_age >= able_to_rent_a_car  # True
-not(college_graduate_age >= able_to_purchase_alcohol and college_graduate_age >=
-    able_to_rent_a_car)  # True
+chesty_puller_age >= able_to_purchase_alcohol and chesty_puller_age >= able_to_purchase_alcohol # True
+college_graduate_age >= able_to_purchase_alcohol and college_graduate_age >= able_to_rent_a_car # False
+college_graduate_age >= able_to_purchase_alcohol or college_graduate_age >= able_to_rent_a_car # True
+not(college_graduate_age >= able_to_purchase_alcohol and college_graduate_age >= able_to_rent_a_car) # True
 
 # IDENTITY OPERATORS
 
@@ -193,7 +192,7 @@ not(college_graduate_age >= able_to_purchase_alcohol and college_graduate_age >=
 # is 	    Returns True if both variables are the same object	    x is y
 # is not	Returns True if both variables are not the same object	x is not y
 
-college_graduate_age is able_to_purchase_alcohol  # True
+college_graduate_age is able_to_purchase_alcohol # True
 
 # String and Numbers are straightforward but once we get into objects...
 
@@ -208,7 +207,7 @@ college_graduate_age is able_to_purchase_alcohol  # True
 e = 200
 f = 33
 
-if e == f:  # careful comparing equals
+if e == f: # careful comparing equals
     print("e is equal to f")
 elif e > f:
     print("He is greater than f")

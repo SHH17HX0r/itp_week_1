@@ -91,7 +91,7 @@ print(type(exampleInt))
 sum = 4 + 4
 sub = 1 - 100  # it can evaluate to negatives too!
 div = 10/5  # even if it divides evenly, it returns a float.
-floor = 10//3  # to only get whole numbers, we use floor division.
+floor = 10/3  # to only get whole numbers, we use floor division.
 
 # ASSIGNMENT OPERATORS
 
@@ -120,7 +120,7 @@ y = "3"
 y += str(3)
 # TypeError: can only concatenate str (not "int") to str
 
-# ** BOOLEANS
+# BOOLEANS
 
 # In programming you often need to know if an expression is True or False.
 # You can evaluate any expression in Python, and get one of two answers, True or False.

@@ -12,21 +12,6 @@
 
 usr_num = input("Enter any number between 1-9: ")
 
-print(usr_num)
-
 usr_num = int(usr_num)
 
-print(usr_num)
-
 multi2 = usr_num * 2
-print(multi2)
-
-add10 = multi2 + 10
-print(add10)
-
-div2 = add10/2
-
-fin_num = div2 - usr_num
-fin_num = int(fin_num)
-
-print("Your final number is 5  " + str(fin_num))

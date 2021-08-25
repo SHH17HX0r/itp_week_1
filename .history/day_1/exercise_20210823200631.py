@@ -7,11 +7,3 @@
 # prompt an user input to ask "What is your favorite color?" and assign it to a variable called "user_favorite_color"
 
 # print a string concatenation complimenting their choice of color with user_favorite_color ie. "blue is a nice color!"
-
-my_favorite_band = 'Otep'
-
-print(my_favorite_band + ' is my favorite band!')
-
-user_favorite_color = input('What is your favorite color? ')
-
-print(user_favorite_color + ' is a nice color!')

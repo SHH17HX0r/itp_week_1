@@ -23,6 +23,6 @@ print('       /| \n      / | \n     /  | \n    /___|')
 # recreate the 4 level triangle using a multi-line string
 
 print('''      /|
-     / |
-    /  |
-   /___|''')
+        / |
+        /  |
+        /___|''')

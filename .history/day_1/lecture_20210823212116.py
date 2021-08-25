@@ -80,17 +80,17 @@ and end of the string"""
 # 2. myFavoriteBand - Camel Case
 # 3. my_favorite_band - Snake Case
 
-name = "Tom"
+name = "Daniel"
 
 # Now, instead of printing string literals, we can print variables which store the string!
 
 # Change the name above to your name and uncomment the line below!
 
-print(name)
+# print(name)
 
 # We can combine like-elements, even as variables. (STRING CONCATENATION)
 
-print("Hello my name is " + name)
+# print("Hello my name is " + name)
 
 # INPUT
 

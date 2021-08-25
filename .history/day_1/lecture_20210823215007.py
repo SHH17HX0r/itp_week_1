@@ -90,7 +90,7 @@ print(name)
 
 # We can combine like-elements, even as variables. (STRING CONCATENATION)
 
-print("Hello my name is " + name)
+# print("Hello my name is " + name)
 
 # INPUT
 

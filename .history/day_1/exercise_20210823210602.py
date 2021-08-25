@@ -11,7 +11,3 @@
 my_favorite_band = 'Otep'
 
 print(my_favorite_band + ' is my favorite band!')
-
-user_favorite_color = input('What is your favorite color? ')
-
-print(user_favorite_color + ' is a nice color!')

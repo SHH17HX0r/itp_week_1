@@ -4,7 +4,8 @@
 age = input('What is your age? ?')
 
 # The user input comes in as a string so we have to cast it to a int!
-age = int(age)
+if age.isalpha():
+    age = int(age)
 
 # Use an if/else to determine if they are of legal drinking age.
 # if the user is of age, print "Welcome!"

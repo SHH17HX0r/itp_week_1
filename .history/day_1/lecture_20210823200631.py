@@ -14,7 +14,7 @@
 # Windows: Ctrl + /
 # Mac: Cmd + /
 # Now let's prevent the code below from running by commenting it out!
-# eat_bad_pizza()
+eat_bad_pizza()
 
 ##################################
 # dont worry about the error     #
@@ -35,7 +35,7 @@
 
 # Replace CHANGE_ME to your favorite color and run the code in your terminal.
 
-print("blue")
+print("CHANGE_ME")
 
 # Currently what we're printing is just a string.
 
@@ -76,21 +76,21 @@ and end of the string"""
 
 # MultiWord Variable Names
 # ie. my favorite band
-# 1. MyFavoriteBand - Pascal Case
-# 2. myFavoriteBand - Camel Case
-# 3. my_favorite_band - Snake Case
+    # 1. MyFavoriteBand - Pascal Case
+    # 2. myFavoriteBand - Camel Case
+    # 3. my_favorite_band - Snake Case
 
-name = "Tom"
+name = "Daniel"
 
 # Now, instead of printing string literals, we can print variables which store the string!
 
 # Change the name above to your name and uncomment the line below!
 
-print(name)
+# print(name)
 
 # We can combine like-elements, even as variables. (STRING CONCATENATION)
 
-print("Hello my name is " + name)
+# print("Hello my name is " + name)
 
 # INPUT
 

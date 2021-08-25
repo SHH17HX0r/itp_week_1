@@ -21,12 +21,8 @@ print(usr_num)
 multi2 = usr_num * 2
 print(multi2)
 
-add10 = multi2 + 10
-print(add10)
+add10 = multi2 + 100
 
-div2 = add10/2
+fin_num = usr_num - add10
 
-fin_num = div2 - usr_num
-fin_num = int(fin_num)
-
-print("Your final number is 5  " + str(fin_num))
+print(fin_num)
